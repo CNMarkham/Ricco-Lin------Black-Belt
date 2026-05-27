@@ -24,8 +24,11 @@ public class PlayerMovement : MonoBehaviour
 
         transform.position += Vector3.forward * speed * Time.deltaTime;
 
-        float newX = Mathf.Lerp(transform.position.x, targetWorldPos.x, speed * Time.deltaTime);
-        float newZ = Mathf.Lerp(transform.position.z, targetWorldPos.z, speed * Time.deltaTime);    
+        float t = 1f - Mathf.Exp(-speed * Time.deltaTime);
+
+
+        float newX = Mathf.Lerp(transform.position.x, targetWorldPos.x, t);
+        float newZ = Mathf.Lerp(transform.position.z, targetWorldPos.z, t);    
 
         transform.position = new Vector3(newX, transform.position.y, newZ);  
         /*Vector3 smoothPos = Vector3.Lerp(
