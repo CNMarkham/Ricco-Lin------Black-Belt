@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Dead : MonoBehaviour
 {
+    public GameObject objectToUnparent;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,8 +19,9 @@ public class Dead : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (CompareTag("Obstacle"))
+        if (collision.gameObject.CompareTag("Obstacle"))
         {
+            objectToUnparent.transform.SetParent(null);
             Destroy(gameObject);
         }
     }

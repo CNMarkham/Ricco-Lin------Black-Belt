@@ -7,10 +7,11 @@ public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5f;
     public float distanceFromCamera = 5;
+    public float hover = 4.72f;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -28,15 +29,17 @@ public class PlayerMovement : MonoBehaviour
 
 
         float newX = Mathf.Lerp(transform.position.x, targetWorldPos.x, t);
-        float newZ = Mathf.Lerp(transform.position.z, targetWorldPos.z, t);    
+        float newZ = Mathf.Lerp(transform.position.z, targetWorldPos.z, t);
 
-        transform.position = new Vector3(newX, transform.position.y, newZ);  
-        /*Vector3 smoothPos = Vector3.Lerp(
-            transform.position,
-            new Vector3(targetWorldPos.x, transform.position.y, targetWorldPos.z),
-            speed * Time.deltaTime
-            );
+        transform.position = new Vector3(newX, transform.position.y, newZ);
 
-        transform.position = smoothPos;*/
+        if (Input.GetKey(KeyCode.Space))
+        {
+            transform.position += new Vector3(0, Time.deltaTime * 10, 0);
+        }
+        else if (transform.position.y >= hover)
+        {
+            transform.position -= new Vector3(0, hover * Time.deltaTime * 10, 0);
+        }
     }
 }
