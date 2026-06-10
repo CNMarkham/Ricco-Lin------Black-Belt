@@ -35,7 +35,11 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Space))
         {
-            transform.position += new Vector3(0, Time.deltaTime * 10, 0);
+            transform.position += new Vector3(0, Time.deltaTime * 50, 0);
+            if(transform.position.y >= 20)
+            {
+                transform.position -= new Vector3(0, Time.deltaTime * 50, 0);
+            }
         }
         else if (transform.position.y >= hover)
         {
