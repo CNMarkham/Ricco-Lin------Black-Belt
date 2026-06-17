@@ -18,10 +18,13 @@ public class GenrateLevels : MonoBehaviour
 
     private float nextSpawnZ = 1106f;
     private List<GameObject> spawnedTiles = new List<GameObject>();
-
+    private int tileCount = 0;
+    private int checkpointTarget;
+    public GameObject Checkpoint;
     void Start()
     {
-        // Spawn initial tiles
+        SetNewCheckpointTarget();
+
         for (int i = 0; i < tilesAhead; i++)
         {
             SpawnTile();
@@ -49,15 +52,43 @@ public class GenrateLevels : MonoBehaviour
 
     void SpawnTile()
     {
+        //everytime we spwan a tile increase count
+        //when it hits the count then spawn checkpoint
+        //reset count and pick new number 4-10
+
+
         GameObject prefab = levelPrefabs[Random.Range(0, levelPrefabs.Length)];
 
         Vector3 spawnPos = new Vector3(-24, -439.2121f, nextSpawnZ);
 
         GameObject tile = Instantiate(prefab, spawnPos, Quaternion.identity);
 
+        tileCount++;
+
         spawnedTiles.Add(tile);
 
         nextSpawnZ += tileLength;
+
+        if (tileCount >= checkpointTarget)
+        {
+            SpawnCheckpoint();
+
+            tileCount = 0;
+            SetNewCheckpointTarget();
+        }
+    }
+
+    private void SetNewCheckpointTarget()
+    {
+        checkpointTarget = Random.Range(4, 7); 
+    }
+
+    public void SpawnCheckpoint()
+    {
+
+        Vector3 spawnPos = new Vector3(0, 0f, nextSpawnZ);
+
+        GameObject newObject = Instantiate(Checkpoint, spawnPos, Quaternion.identity);
     }
 }
 

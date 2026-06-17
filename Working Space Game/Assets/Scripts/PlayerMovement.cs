@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 5f;
     public float distanceFromCamera = 5;
     public float hover = 4.72f;
+    public float resource = 200;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +20,6 @@ public class PlayerMovement : MonoBehaviour
     {
 
         Vector3 mousePos = Input.mousePosition;
-        Debug.Log($"Mouse position is {Input.mousePosition}");
         mousePos.z = distanceFromCamera;
         Vector3 targetWorldPos = Camera.main.ScreenToWorldPoint(mousePos);
 
@@ -33,17 +33,30 @@ public class PlayerMovement : MonoBehaviour
 
         transform.position = new Vector3(newX, transform.position.y, newZ);
 
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space) && resource > 0)
         {
-            transform.position += new Vector3(0, Time.deltaTime * 50, 0);
-            if(transform.position.y >= 20)
+            if (transform.position.y < 20)
+            {
+                transform.position += new Vector3(0, Time.deltaTime * 50, 0);
+            }
+            resource -= 1 * speed;
+            Debug.Log(resource);
+            if(resource <= 0)
             {
                 transform.position -= new Vector3(0, Time.deltaTime * 50, 0);
             }
+            return;
         }
         else if (transform.position.y >= hover)
         {
             transform.position -= new Vector3(0, hover * Time.deltaTime * 10, 0);
+            return;
+        }
+
+        if(resource < 2000)
+        {
+            resource += 1 * speed;
+            Debug.Log(resource + "added");
         }
     }
 }

@@ -10,7 +10,8 @@ public class Checkpoints : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Checkpoint"))
         {
-            playerMovement.speed += 1000;
+
+            playerMovement.speed += 2;
         }
     }
 }

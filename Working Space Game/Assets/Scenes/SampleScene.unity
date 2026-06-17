@@ -235,6 +235,7 @@ MonoBehaviour:
   tilesAhead: 20
   tileLength: 100
   destroyDistance: 40
+  Checkpoint: {fileID: 8034622508794683629, guid: 8756e891054181044b26627bda5fd912, type: 3}
 --- !u!4 &113415168
 Transform:
   m_ObjectHideFlags: 0
@@ -1139,6 +1140,7 @@ MonoBehaviour:
   speed: 15
   distanceFromCamera: 20
   hover: 4.72
+  resource: 500
 --- !u!54 &1350276206
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1184,6 +1186,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToUnparent: {fileID: 963194225}
+--- !u!114 &1350276215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350276204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a544b8c775c083a46b05fc954a6fcc5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 1350276205}
 --- !u!1001 &1439215103
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1206,7 +1221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5474341207496781455, guid: f6f5940675e241b49844d99c36771ab9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.19999999
+      value: 6.6
       objectReference: {fileID: 0}
     - target: {fileID: 5474341207496781455, guid: f6f5940675e241b49844d99c36771ab9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1271,6 +1286,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6537905921160955057, guid: f6f5940675e241b49844d99c36771ab9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1350276214}
+    - targetCorrespondingSourceObject: {fileID: 6537905921160955057, guid: f6f5940675e241b49844d99c36771ab9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1350276215}
   m_SourcePrefab: {fileID: 100100000, guid: f6f5940675e241b49844d99c36771ab9, type: 3}
 --- !u!1001 &1456195322
 PrefabInstance:
