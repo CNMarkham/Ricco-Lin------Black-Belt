@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Dead : MonoBehaviour
 {
-    public GameObject objectToUnparent;
+
+    public Vector3 newPosition = new Vector3(6.6f, 4.4f, -51.4f);
+    public PlayerMovement playerMovement;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +23,8 @@ public class Dead : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Obstacle"))
         {
-            objectToUnparent.transform.SetParent(null);
-            Destroy(gameObject);
+            transform.position = newPosition;
+            playerMovement.speed = 15;
         }
     }
 }
