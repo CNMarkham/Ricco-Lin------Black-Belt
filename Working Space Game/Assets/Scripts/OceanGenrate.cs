@@ -15,7 +15,7 @@ public class OceanGenrate : MonoBehaviour
     public float tileLength = 20f;
     public float destroyDistance = 40f;
 
-    private float nextSpawnZ = 400f;
+    private float nextSpawnZ = 450f;
     private List<GameObject> spawnedTiles = new List<GameObject>();
     private int tileCount = 0;
     private int checkpointTarget;
