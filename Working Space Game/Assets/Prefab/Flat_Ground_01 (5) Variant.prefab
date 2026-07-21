@@ -308,6 +308,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flat_Ground_01 (5) Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 2462067380209715532, guid: 3e2c53a37c7f5384d947046ffbe7e7b6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02503cd9ea70b234d9ff074bd0a8b763, type: 2}
     - target: {fileID: 3453491183797031176, guid: 3e2c53a37c7f5384d947046ffbe7e7b6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.05

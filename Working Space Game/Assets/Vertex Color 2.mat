@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Vertex Color
+  m_Name: Vertex Color 2
   m_Shader: {fileID: 4800000, guid: 9271e864ef20504479d70527f1b73721, type: 3}
   m_Parent: {fileID: 2100000, guid: e6e6ba439ef1bb048a11147b251d973d, type: 2}
   m_ModifiedSerializedProperties: 2
@@ -26,5 +26,6 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats: []
-    m_Colors: []
+    m_Colors:
+    - _Color: {r: 0, g: 0.46707344, b: 1, a: 1}
   m_BuildTextureStacks: []
