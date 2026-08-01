@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Dead : MonoBehaviour
 {
@@ -23,9 +24,17 @@ public class Dead : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Obstacle"))
         {
+            
             transform.position = newPosition;
             playerMovement.speed = 15;
             score.Reset();
+            ResetScene();
         }
+    }
+
+    public void ResetScene()
+    {
+        // Gets the currently active scene and reloads it
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

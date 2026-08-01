@@ -1026,7 +1026,7 @@ MonoBehaviour:
   resource: 500
   drainRate: 20
   regenRate: 10
-  resourceBar: {fileID: 0}
+  resourceBar: {fileID: 734409500}
 --- !u!54 &667925011
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2933,7 +2933,7 @@ MonoBehaviour:
   - {fileID: 112746422613160728, guid: 3e2c53a37c7f5384d947046ffbe7e7b6, type: 3}
   - {fileID: 7685789492830618242, guid: 8035c11130825f64794498d636c35086, type: 3}
   tilesAhead: 20
-  tileLength: 100
+  tileLength: 70
   destroyDistance: 40
   Checkpoint: {fileID: 1890588548742467344, guid: 63f7e3a5ea486a9438b4cd3142c7dc92, type: 3}
 --- !u!1660057539 &9223372036854775807

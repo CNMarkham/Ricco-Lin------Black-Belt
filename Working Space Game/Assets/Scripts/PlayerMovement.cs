@@ -15,6 +15,10 @@ public class PlayerMovement : MonoBehaviour
 
     public Image resourceBar;
 
+    // Ground check
+    public float groundCheckDistance = 0.5f;
+    public LayerMask groundLayer;
+
     void Update()
     {
         // Mouse movement
@@ -50,18 +54,39 @@ public class PlayerMovement : MonoBehaviour
             {
                 transform.position -= Vector3.up * 50f * Time.deltaTime;
             }
-
-            // Regenerate resource
-            resource += regenRate * Time.deltaTime;
         }
 
-        // Keep resource between 0 and max
+        // Clamp resource
         resource = Mathf.Clamp(resource, 0f, maxResource);
+
+
+
+        // Check if player is touching the ground
+        bool onGround = Physics.Raycast(
+            transform.position,
+            Vector3.down,
+            groundCheckDistance,
+            groundLayer
+        );
+
+        // Only regenerate resource when on the ground
+        if (onGround)
+        {
+            Debug.Log("hit g");
+            resource += regenRate * Time.deltaTime;
+        }
 
         // Update UI
         if (resourceBar != null)
         {
             resourceBar.fillAmount = resource / maxResource;
         }
+    }
+
+    // Draw the ray in the Scene view
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawLine(transform.position, transform.position + Vector3.down * groundCheckDistance);
     }
 }

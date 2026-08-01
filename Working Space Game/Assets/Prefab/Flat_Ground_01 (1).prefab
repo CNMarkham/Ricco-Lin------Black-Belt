@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7720473010525847335}
   - component: {fileID: 6076005477437803794}
   - component: {fileID: 7413742609596835683}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Flat_Ground_01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

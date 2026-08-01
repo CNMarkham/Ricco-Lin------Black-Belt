@@ -653,9 +653,10 @@ GameObject:
   - component: {fileID: 494647856}
   - component: {fileID: 494647855}
   - component: {fileID: 494647854}
-  m_Layer: 0
+  - component: {fileID: 494647857}
+  m_Layer: 3
   m_Name: Flat_Ground_01 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -725,6 +726,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &494647857
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494647853}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: f5baf401218f50f45a7f0fc2a17b6215, type: 3}
 --- !u!1001 &537955498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1515,8 +1538,12 @@ MonoBehaviour:
   maxResource: 200
   resource: 500
   drainRate: 20
-  regenRate: 10
+  regenRate: 100
   resourceBar: {fileID: 1051525586}
+  groundCheckDistance: 5
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!54 &1350276206
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2776,6 +2803,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 593107592036235172, guid: 0a827f482286b0d4abd2504923a48971, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4614750041528549543, guid: 0a827f482286b0d4abd2504923a48971, type: 3}
       propertyPath: m_Name
       value: thing 1
@@ -2837,6 +2868,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3145228147055497329, guid: 762bd36e7c7b03f479d0644e8216f9e0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4381081966112865807, guid: 762bd36e7c7b03f479d0644e8216f9e0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24
@@ -2914,6 +2949,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e6e6ba439ef1bb048a11147b251d973d, type: 2}
+    - target: {fileID: 4372123560831104427, guid: a7f7d5baf47d4234da9d9e706a2a9cd1, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5584948661900830229, guid: a7f7d5baf47d4234da9d9e706a2a9cd1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -3022,6 +3061,10 @@ PrefabInstance:
     - target: {fileID: 5208690260686690172, guid: 840d29f5bccc4604a87305188953f534, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8985203986287558817, guid: 840d29f5bccc4604a87305188953f534, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8985203986290031895, guid: 840d29f5bccc4604a87305188953f534, type: 3}
       propertyPath: m_Materials.Array.data[0]
