@@ -1535,9 +1535,9 @@ MonoBehaviour:
   speed: 15
   distanceFromCamera: 20
   hover: 4.72
-  maxResource: 200
-  resource: 500
-  drainRate: 20
+  maxResource: 1000
+  resource: 1000
+  drainRate: 100
   regenRate: 100
   resourceBar: {fileID: 1051525586}
   groundCheckDistance: 5
