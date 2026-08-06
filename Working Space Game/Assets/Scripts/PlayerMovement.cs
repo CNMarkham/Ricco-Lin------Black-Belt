@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 5f;
+    public float speed = 20f;
     public float distanceFromCamera = 5f;
     public float hover = 4.72f;
 
