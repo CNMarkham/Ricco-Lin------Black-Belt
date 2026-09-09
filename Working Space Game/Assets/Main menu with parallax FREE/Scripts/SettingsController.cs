@@ -75,7 +75,7 @@ public class SettingsController : MonoBehaviour {
 
     public void loadSettings()
     {
-        gameSettings = JsonUtility.FromJson<Settings>(File.ReadAllText( Application.persistentDataPath + "/gamesettings.json"));
+        //gameSettings = JsonUtility.FromJson<Settings>(File.ReadAllText( Application.persistentDataPath + "/gamesettings.json"));
         fullscreenToggle.isOn = gameSettings.fullscreen;
         resolutionDrop.value = gameSettings.resolutionIndex;
         antialiasingDrop.value = gameSettings.antialiasing;
