@@ -8,7 +8,7 @@ public class ScoreManager : MonoBehaviour
     public Dead rest;
     public TMP_Text scoreText; // Change to Text if using the legacy UI Text
     public int score = 0;
-
+    public int level;
     private float timer = 0f;
 
     private void FixedUpdate()
@@ -20,6 +20,11 @@ public class ScoreManager : MonoBehaviour
             score++;
             scoreText.text = "Score: " + score;
             timer = 0f;
+            if(PlayerPrefs.GetInt("level"+ level) < score)
+            {
+                PlayerPrefs.SetInt("level" + level, score);
+            }
+        
         }
     }
 

@@ -11,7 +11,7 @@ public class Checkpoints : MonoBehaviour
         if (collision.gameObject.CompareTag("Checkpoint"))
         {
 
-            playerMovement.speed += 2;
+            playerMovement.speed += 0.5f;
         }
     }
 }

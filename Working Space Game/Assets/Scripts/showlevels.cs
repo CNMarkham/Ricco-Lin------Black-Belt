@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class showlevels : MonoBehaviour
 {
     public 
@@ -15,5 +15,10 @@ public class showlevels : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void ChangeScene(int sceneNum)
+    {
+        SceneManager.LoadScene(sceneNum);
     }
 }
