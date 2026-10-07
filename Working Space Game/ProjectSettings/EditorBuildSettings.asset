@@ -14,22 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ocean.unity
     guid: 2ab6aba23301399409b07d1c024247b6
-<<<<<<< Updated upstream
   - enabled: 1
     path: Assets/Scenes/Space.unity
     guid: 6c4d799c85746624bbe450140b4b5bf6
-=======
-<<<<<<< HEAD
-  - enabled: 0
-    path: Assets/Scenes/Space.unity
-    guid: 6c4d799c85746624bbe450140b4b5bf6
-  - enabled: 1
-    path: Assets/Scenes/Snowy.unity
-    guid: 9f017bee863a408448980944a703b8dd
-=======
-  - enabled: 1
-    path: Assets/Scenes/Space.unity
-    guid: 6c4d799c85746624bbe450140b4b5bf6
->>>>>>> bc23081863d2ebd1b4b9946d12aba7a7c199f3ad
->>>>>>> Stashed changes
   m_configObjects: {}

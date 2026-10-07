@@ -436,15 +436,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 433.3, y: 242.3}
-=======
-<<<<<<< HEAD
-  m_AnchoredPosition: {x: 448.7, y: 227.10002}
-=======
-  m_AnchoredPosition: {x: 433.3, y: 242.3}
->>>>>>> bc23081863d2ebd1b4b9946d12aba7a7c199f3ad
->>>>>>> Stashed changes
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &466708923
@@ -1000,7 +992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a544b8c775c083a46b05fc954a6fcc5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerMovement: {fileID: 0}
+  playerMovement: {fileID: 667925010}
 --- !u!114 &667925009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1016,8 +1008,6 @@ MonoBehaviour:
   score: {fileID: 466708923}
   newPosition: {x: 6.6, y: 4.4, z: -51.4}
   playerMovement: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!114 &667925010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1042,7 +1032,6 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
->>>>>>> bc23081863d2ebd1b4b9946d12aba7a7c199f3ad
 --- !u!54 &667925011
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1180,15 +1169,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -408, y: 256}
-=======
-<<<<<<< HEAD
-  m_AnchoredPosition: {x: -425, y: 242.30002}
-=======
-  m_AnchoredPosition: {x: -408, y: 256}
->>>>>>> bc23081863d2ebd1b4b9946d12aba7a7c199f3ad
->>>>>>> Stashed changes
   m_SizeDelta: {x: 1100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &734409500
@@ -1839,14 +1820,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 122446496834409939, guid: f6f5940675e241b49844d99c36771ab9, type: 3}
-      propertyPath: playerMovement
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 313445568514142389, guid: f6f5940675e241b49844d99c36771ab9, type: 3}
-      propertyPath: score
-      value: 
-      objectReference: {fileID: 466708923}
     - target: {fileID: 879639534438156442, guid: f6f5940675e241b49844d99c36771ab9, type: 3}
       propertyPath: m_Height
       value: 3
@@ -1949,23 +1922,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7980003326121560353, guid: f6f5940675e241b49844d99c36771ab9, type: 3}
       propertyPath: speed
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-      value: 4
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2169753648212110844, guid: f6f5940675e241b49844d99c36771ab9, type: 3}
-    - {fileID: 313445568514142389, guid: f6f5940675e241b49844d99c36771ab9, type: 3}
-    - {fileID: 7837406463108182879, guid: f6f5940675e241b49844d99c36771ab9, type: 3}
-    - {fileID: 2426143944504184451, guid: f6f5940675e241b49844d99c36771ab9, type: 3}
-    - {fileID: 122446496834409939, guid: f6f5940675e241b49844d99c36771ab9, type: 3}
-=======
->>>>>>> Stashed changes
       value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
->>>>>>> bc23081863d2ebd1b4b9946d12aba7a7c199f3ad
     m_RemovedGameObjects:
     - {fileID: 3012964545698402269, guid: f6f5940675e241b49844d99c36771ab9, type: 3}
     m_AddedGameObjects:
@@ -1976,6 +1935,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6537905921160955057, guid: f6f5940675e241b49844d99c36771ab9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 667925011}
+    - targetCorrespondingSourceObject: {fileID: 6537905921160955057, guid: f6f5940675e241b49844d99c36771ab9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 667925010}
     - targetCorrespondingSourceObject: {fileID: 6537905921160955057, guid: f6f5940675e241b49844d99c36771ab9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 667925009}
