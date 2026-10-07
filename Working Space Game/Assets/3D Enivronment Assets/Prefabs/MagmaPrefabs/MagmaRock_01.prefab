@@ -13,7 +13,15 @@ GameObject:
   - component: {fileID: 5685987306195332}
   m_Layer: 0
   m_Name: MagmaRock_01
+<<<<<<< Updated upstream
   m_TagString: Untagged
+=======
+<<<<<<< HEAD
+  m_TagString: Obstacle
+=======
+  m_TagString: Untagged
+>>>>>>> bc23081863d2ebd1b4b9946d12aba7a7c199f3ad
+>>>>>>> Stashed changes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
