@@ -60,7 +60,7 @@ public class OceanGenrate : MonoBehaviour
 
         Vector3 spawnPos = new Vector3(0, 0, nextSpawnZ);
 
-        GameObject tile = Instantiate(prefab, spawnPos, Quaternion.identity);
+        GameObject tile = Instantiate(prefab, spawnPos, prefab.transform.rotation);
 
         tileCount++;
 
@@ -87,6 +87,6 @@ public class OceanGenrate : MonoBehaviour
 
         Vector3 spawnPos = new Vector3(0, 0f, nextSpawnZ);
 
-        GameObject newObject = Instantiate(Checkpoint, spawnPos, Quaternion.identity);
+        GameObject newObject = Instantiate(Checkpoint, spawnPos, Checkpoint.transform.rotation);
     }
 }
