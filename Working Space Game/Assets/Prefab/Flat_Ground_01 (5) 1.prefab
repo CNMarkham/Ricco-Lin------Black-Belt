@@ -285,6 +285,7 @@ GameObject:
   - component: {fileID: 2676384090094346938}
   - component: {fileID: 381357357717096677}
   - component: {fileID: 720181732988844943}
+  - component: {fileID: 3775068154334048300}
   m_Layer: 0
   m_Name: IceTree (2)
   m_TagString: Obstacle
@@ -357,3 +358,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3775068154334048300
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7666934316551214980}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 32.630234, y: 38.499924, z: 28.36831}
+  m_Center: {x: -1.0010424, y: 19.249962, z: -2.981124}

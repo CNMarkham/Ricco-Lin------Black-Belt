@@ -778,7 +778,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 460750, guid: d2104aa152d99894d8df3c31a9ee634b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.400001
+      value: 11.8
       objectReference: {fileID: 0}
     - target: {fileID: 460750, guid: d2104aa152d99894d8df3c31a9ee634b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -919,61 +919,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5474341207496781455, guid: f6f5940675e241b49844d99c36771ab9, type: 3}
   m_PrefabInstance: {fileID: 963978361}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1422752345
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1422752347}
-  - component: {fileID: 1422752346}
-  m_Layer: 0
-  m_Name: Level Manager (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1422752346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1422752345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be4dd6ff217f4dc4a9107319ae96a2b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1340204878}
-  levelPrefabs:
-  - {fileID: 4634263270842215293, guid: ee5926460b97be842afe12383491ca8a, type: 3}
-  - {fileID: 4112138117371956095, guid: e8a4f2a9e5a873d4080f29120e424050, type: 3}
-  - {fileID: 9084403965846223660, guid: 5490b98bb1b3cb24baef0dbe66f7c55d, type: 3}
-  - {fileID: 8877528553109974095, guid: e4b89dfb59f601f498dad820912bd413, type: 3}
-  - {fileID: 2643484851415272566, guid: 4f95ed39191bd2645bdefa7c8d1aecfd, type: 3}
-  tilesAhead: 20
-  tileLength: 100
-  destroyDistance: 60
-  Checkpoint: {fileID: 1287834168}
---- !u!4 &1422752347
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1422752345}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -301.29205, y: -481.41397, z: 259.3266}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1727069968
 GameObject:
   m_ObjectHideFlags: 0
@@ -1214,6 +1159,61 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27f69fe37e0c8c44f97be1aba8f406cd, type: 3}
+--- !u!1 &1818144683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1818144685}
+  - component: {fileID: 1818144684}
+  m_Layer: 0
+  m_Name: Level Manager (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1818144684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818144683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4dd6ff217f4dc4a9107319ae96a2b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1340204878}
+  levelPrefabs:
+  - {fileID: 4634263270842215293, guid: ee5926460b97be842afe12383491ca8a, type: 3}
+  - {fileID: 4112138117371956095, guid: e8a4f2a9e5a873d4080f29120e424050, type: 3}
+  - {fileID: 9084403965846223660, guid: 5490b98bb1b3cb24baef0dbe66f7c55d, type: 3}
+  - {fileID: 8877528553109974095, guid: e4b89dfb59f601f498dad820912bd413, type: 3}
+  - {fileID: 2643484851415272566, guid: 4f95ed39191bd2645bdefa7c8d1aecfd, type: 3}
+  tilesAhead: 20
+  tileLength: 100
+  destroyDistance: 60
+  Checkpoint: {fileID: 1287834168}
+--- !u!4 &1818144685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818144683}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -301.29205, y: -481.41397, z: 259.3266}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1978687574
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1571,7 +1571,7 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1422752347}
+  - {fileID: 1818144685}
   - {fileID: 28008578}
   - {fileID: 957698296}
   - {fileID: 1781282845}

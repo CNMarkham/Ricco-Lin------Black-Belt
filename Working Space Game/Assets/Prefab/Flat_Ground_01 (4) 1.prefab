@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 5254118337864293605}
   - component: {fileID: 5747778933653984435}
   - component: {fileID: 2926387806113451190}
+  - component: {fileID: 1224749716443695765}
   m_Layer: 0
   m_Name: IceTree (5)
   m_TagString: Obstacle
@@ -166,6 +167,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1224749716443695765
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433705207452647567}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 32.630234, y: 38.499924, z: 28.36831}
+  m_Center: {x: -1.0010424, y: 19.249962, z: -2.981124}
 --- !u!1 &1740248369161581381
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,6 +199,7 @@ GameObject:
   - component: {fileID: 2020448836400110202}
   - component: {fileID: 2352544337879022550}
   - component: {fileID: 2699955715154087093}
+  - component: {fileID: 8207975602921899139}
   m_Layer: 0
   m_Name: IceTree
   m_TagString: Obstacle
@@ -249,6 +272,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8207975602921899139
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740248369161581381}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 32.630234, y: 38.499924, z: 28.36831}
+  m_Center: {x: -1.0010424, y: 19.249962, z: -2.981124}
 --- !u!1 &4366791442824439534
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,6 +387,7 @@ GameObject:
   - component: {fileID: 5215768776882412244}
   - component: {fileID: 2993080454876619421}
   - component: {fileID: 629976200546396989}
+  - component: {fileID: 4850314428015639036}
   m_Layer: 0
   m_Name: IceTree (6)
   m_TagString: Obstacle
@@ -415,6 +460,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4850314428015639036
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5265567462586287473}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 32.630234, y: 38.499924, z: 28.36831}
+  m_Center: {x: -1.0010424, y: 19.249962, z: -2.981124}
 --- !u!1 &5990317127942566025
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,6 +492,7 @@ GameObject:
   - component: {fileID: 5473162196485242566}
   - component: {fileID: 6622881783227379752}
   - component: {fileID: 114724438254335230}
+  - component: {fileID: 6849885919012958711}
   m_Layer: 0
   m_Name: IceTree (3)
   m_TagString: Obstacle
@@ -498,6 +565,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6849885919012958711
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5990317127942566025}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 32.630234, y: 38.499924, z: 28.36831}
+  m_Center: {x: -1.0010424, y: 19.249962, z: -2.981124}
 --- !u!1 &6608025027134640649
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,6 +597,7 @@ GameObject:
   - component: {fileID: 7252603307208047524}
   - component: {fileID: 6226226283209834254}
   - component: {fileID: 6557195802980302455}
+  - component: {fileID: 5164467078770414256}
   m_Layer: 0
   m_Name: IceTree (1)
   m_TagString: Obstacle
@@ -581,6 +670,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5164467078770414256
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6608025027134640649}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 32.630234, y: 38.499924, z: 28.36831}
+  m_Center: {x: -1.0010424, y: 19.249962, z: -2.981124}
 --- !u!1 &6868210089215446621
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,6 +702,7 @@ GameObject:
   - component: {fileID: 8066049058471118502}
   - component: {fileID: 6793437423944666347}
   - component: {fileID: 7488173396661813994}
+  - component: {fileID: 7618222759877173749}
   m_Layer: 0
   m_Name: IceTree (4)
   m_TagString: Obstacle
@@ -664,6 +775,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7618222759877173749
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6868210089215446621}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 32.630234, y: 38.499924, z: 28.36831}
+  m_Center: {x: -1.0010424, y: 19.249962, z: -2.981124}
 --- !u!1 &8139527086339850497
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,6 +807,7 @@ GameObject:
   - component: {fileID: 7508143306925084441}
   - component: {fileID: 1159639369067150294}
   - component: {fileID: 5639179606632573679}
+  - component: {fileID: 557782190298439706}
   m_Layer: 0
   m_Name: IceTree (2)
   m_TagString: Obstacle
@@ -747,6 +880,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &557782190298439706
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8139527086339850497}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 32.630234, y: 38.499924, z: 28.36831}
+  m_Center: {x: -1.0010424, y: 19.249962, z: -2.981124}
 --- !u!1 &8877528553109974095
 GameObject:
   m_ObjectHideFlags: 0
