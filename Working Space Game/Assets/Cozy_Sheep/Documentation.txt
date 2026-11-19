@@ -1,0 +1,64 @@
+Cozy Sheep – Documentation
+
+Thanks for picking up Cozy Sheep!
+
+Overview
+Woolly, wide-eyed, and ready to roam — this is a stylized low poly sheep character made for cozy games, casual platformers, and mobile projects.
+It comes fully rigged and animated, with a custom URP toon shader for a warm, hand-crafted look.
+
+Included
+
+- Sheep character model
+- Materials
+- Custom toon shader (URP)
+- Ready-to-use prefab
+- Animations: Idle, Walk, Run
+- Demo scene
+
+Demo Scene
+The package includes the demo scene shown in the screenshots. It features the character along with a simple controller and basic animator setup so you can quickly test things.
+
+The scene works out of the box for visuals.
+
+For character movement, the Unity Input System package is required. If it’s not installed, the scene will still open and look correct, but the character won’t respond to input.
+
+After installing the Input System, make sure the Cozy_InputActions asset is assigned in the controller component in the demo scene. If it’s not assigned, movement won’t work.
+
+The scene is set only up for URP.
+
+Technical Details
+
+- Triangles: 2,711
+- Textures: Normal Map (fur detail), Vertex Colors (flat shading)
+- Shader: Custom Toon (URP)
+- Animations: 3 (Idle, Walk, Run)
+- Rig: Humanoid (compatible with Mixamo)
+
+Requirements
+
+- Unity 2021.3 or newer
+- URP 12 or newer
+- Optional: Unity Input System (for demo scene controls)
+
+Tested with
+
+Unity 6.3 LTS (URP 17)
+
+Setup
+
+1. Import the package into your project
+2. Open the Demo scene from the Cozy_Sheep/Demo Scene folder
+3. Drag the prefab into your scene to use the character
+4. (Optional) Install the Input System if you want to use the demo controller
+
+Notes
+
+- Optimized for mobile and low-end projects
+- Prefabs are clean and ready to use
+- Works well with Mixamo animations
+
+Part of a growing Cozy Pack series — all assets are designed to fit nicely together.
+
+If you run into any issues or have feedback, feel free to reach out.
+
+Enjoy!

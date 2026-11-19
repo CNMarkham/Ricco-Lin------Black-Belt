@@ -318,6 +318,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Waterfall02
       objectReference: {fileID: 0}
+    - target: {fileID: 1380134574559169988, guid: d35e7100712a26447b1e3ff18bc22b50, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 40a4f16b90a981f469c09115612100ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
